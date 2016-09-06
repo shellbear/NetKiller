@@ -4,11 +4,13 @@ A little OSX script to kick off any device from your network !
 
 ## Installation
 
-To run this script you just need to prompt in your Terminal "sh installation.sh"
+You need first to Install This Script : "sh installation.sh"
+After you just need to enter in your Terminal "sudo netkiller" 
+Official Page : https://shellbear.github.io/NetKiller/index.html
 
 ## Usage
 
-When running this script, you will see all connected devices on your network. You just have to select any Ip adress you want to kill !
+When running this script, you will see all connected devices on your network. You just have to select any IP adress you want to kill !
 
 ## Contributing
 
@@ -20,12 +22,17 @@ When running this script, you will see all connected devices on your network. Yo
 
 ## History
 
-TODO: Write history
+Version 1.0 
+Original Version of NetKiller
+
+Future Updates :
+-Spoof Mac Adress
+-Redesigned Menu
 
 ## Credits
 
-TODO: Write credits
+Thanks to Dsniff : https://www.monkey.org/~dugsong/dsniff/
 
 ## License
 
-TODO: Write license
+If you want to modify this script please contact me or make changes for a next update !
