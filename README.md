@@ -1,12 +1,12 @@
 # NetKiller
 
 A little OSX script to kick off any device from your network !
+Official Website : https://shellbear.github.io/NetKiller/index.html
 
 ## Installation
 
-You need first to Install This Script : "sh installation.sh"
-After you just need to enter in your Terminal "sudo netkiller" 
-Official Page : https://shellbear.github.io/NetKiller/index.html
+To install this script you just need to write in your Terminal "sh installation.sh"
+After you just need to write in your terminal : "sudo netkiller"
 
 ## Usage
 
@@ -14,20 +14,15 @@ When running this script, you will see all connected devices on your network. Yo
 
 ## Contributing
 
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+You can help me to in this or any project ... Just ask me or make your changes !
 
 ## History
 
-Version 1.0 
-Original Version of NetKiller
-
-Future Updates :
--Spoof Mac Adress
--Redesigned Menu
+####Version 1.0 : Original Version of NetKiller
+###Future updates : 
+- Spoof Mac Address 
+- More Options
+- Redesigned Menu
 
 ## Credits
 
@@ -35,4 +30,5 @@ Thanks to Dsniff : https://www.monkey.org/~dugsong/dsniff/
 
 ## License
 
-If you want to modify this script please contact me or make changes for a next update !
+This script can be used by anyone. But you need to mention my name "ShellBear". 
+If you want to modify this script please contact me to a future update with your modifications !
