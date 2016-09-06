@@ -20,9 +20,9 @@ You can help me to in this or any project ... Just ask me or make your changes !
 
 Version 1.0 : Original Version of NetKiller
 Future updates : 
--Spoof Mac Address 
--More Options
--Redesigned Menu
+- Spoof Mac Address 
+- More Options
+- Redesigned Menu
 
 ## Credits
 
