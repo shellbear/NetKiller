@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    NETKILLER
+	    netkillers
         Built with Blocs
 -----------------------------------------------------------------------------------*/
 
@@ -437,7 +437,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* Bloc image backgrounds */
 
 .bg-lines-dr2-bg{
-	background-image:url('img/lines-dr2-bg.png');
+	background-image:url("img/lines-dr2-bg.png");
 }
 
 
