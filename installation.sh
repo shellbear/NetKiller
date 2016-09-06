@@ -5,7 +5,7 @@ mkdir /Library/.netkiller
 cd $DIR
 mv netkiller.sh /usr/local/bin
 mv macadress.txt /Library/.netkiller
-cd dnSuite
+cd Dsniff
 mv arpspoof /usr/local/bin/
 mv dsniff /usr/local/bin/
 mv filesnarf /usr/local/bin/
