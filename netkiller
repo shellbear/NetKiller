@@ -22,15 +22,15 @@ echo ""
 arp -a
 echo ""
 echo '\033[0;34m'
-echo $(date) >> /Library/.netkiller/lognetkiller.txt ; arp -a >> /Library/.netkiller/lognetkiller.txt ; echo >> /Library/.netkiller/lognetkiller.txt
+echo $(date) >> lognetkiller.txt ; arp -a >> lognetkiller.txt ; echo >> lognetkiller.txt
 arp -a | grep -o -E '([[:xdigit:]]{1,2}:){5}[[:xdigit:]]{1,2}' | while read line
 do
 mac=$line
 oui=${mac:0:8}
-grep -i $oui /Library/.netkiller/macadress.txt 
-grep -i $oui /Library/.netkiller/macadress.txt >> /Library/.netkiller/lognetkiller.txt
+grep -i $oui macadress.txt 
+grep -i $oui macadress.txt >> lognetkiller.txt
 done
-echo ;echo >> /Library/.netkiller/lognetkiller.txt
+echo ;echo >> lognetkiller.txt
 echo '\033[0m'
 echo ""
 read -p "Victims IP separated by [ ; ] : " victim
