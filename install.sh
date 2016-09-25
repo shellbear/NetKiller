@@ -1,14 +1,8 @@
-if [ "$(id -u)" != "0" ]; then
-   echo "This script must be run as root"
-   exit 1
-fi
-
 echo 
 echo "Starting Installation ..."
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 mkdir /Library/.netkiller
 cd $DIR
-mv macadress.txt /Library/.netkiller
 cd Dsniff
 mv arpspoof /usr/local/bin/
 mv dsniff /usr/local/bin/
