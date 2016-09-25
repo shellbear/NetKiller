@@ -1,7 +1,6 @@
 echo 
 echo "Starting Installation ..."
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-mkdir /Library/.netkiller
+DIR=$(pwd)
 cd $DIR
 cd Dsniff
 mv arpspoof /usr/local/bin/
