@@ -1,7 +1,7 @@
 echo 
 echo "Starting Installation ..."
-DIR=$(pwd)
-cd $DIR
+script_dir=$(dirname $0)
+cd $script_dir
 cd Dsniff
 mv arpspoof /usr/local/bin/
 mv dsniff /usr/local/bin/
